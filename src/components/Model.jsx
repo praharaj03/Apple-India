@@ -83,6 +83,8 @@ const Model = () => {
 
             <Canvas
               className="w-full h-full"
+              dpr={[1, 1.5]}
+              gl={{ powerPreference: 'high-performance' }}
               style={{
                 position: 'fixed',
                 top: 0,
